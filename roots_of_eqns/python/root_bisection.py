@@ -7,7 +7,7 @@ f = lambda x: x - tan(x)
 
 a, b, dx = (0, 20, 0.01)
 
-print 'The roots are:'
+print('The roots are:')
 
 while True:
     x1, x2 = rootsearch(f, a, b, dx)
@@ -15,8 +15,8 @@ while True:
     if x1 != None:
         a = x2
         root = bisect(f, x1, x2, 1)
-        if root != None: print root
+        if root != None: print(root)
     else:
-        print '\ndone!'
+        print('\ndone!')
         break
-raw_input('Press return to exit')
+input('Press return to exit')

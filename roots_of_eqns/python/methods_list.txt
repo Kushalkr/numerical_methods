@@ -1,0 +1,7 @@
+1. Bisection method
+2. Fixed-Point method
+3. Newton's method
+4. Secant Method
+5. Method of False Position
+6. Aitken's delta-squared method
+7. Muller's method
